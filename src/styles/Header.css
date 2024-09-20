@@ -4,13 +4,47 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
-  background-color: #ffffff;
+  padding: 10px 20px; /* Adjust padding for pill shape */
+  background-color: rgba(242, 242, 242, 0.8); /* Semi-transparent background */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   position: fixed;
-  width: 100%;
-  top: 0;
+  width: 80%; /* Use a percentage width */
+  max-width: 800px; /* Set a max-width to ensure it doesn't get too wide */
+  top: 20px; /* Adjust top position */
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50px; /* Pill shape */
   z-index: 1000;
+  margin: 0 auto; /* Center the header */
+}
+
+.logo a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul li {
+  margin-left: 20px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav ul li a:hover {
+  color: #007bff;
 }
 
 .logo a {

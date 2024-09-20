@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/LandingPage.css';
 
-const greetings = ['Hi', 'Hola', 'Bonjour', 'Hallo', 'Ciao', 'こんにちは', '안녕하세요', '你好', 'Привет'];
+const greetings = ['Hi', 'Hola', 'Bonjour', 'Hallo', 'Ciao', 'こんにちは', '안녕하세요', '你好', 'Привет', 'مرحبا'];
 
 const LandingPage = () => {
   const [greetingIndex, setGreetingIndex] = useState(0);
@@ -20,7 +20,10 @@ const LandingPage = () => {
   }, []);
 
   const handleScroll = () => {
-	document.getElementById('projects').scrollIntoView({ behavior: 'smooth' });
+	const projectsSection = document.getElementById('projects');
+	if (projectsSection) {
+	  projectsSection.scrollIntoView({ behavior: 'smooth' });
+	}
   };
 
   return (
