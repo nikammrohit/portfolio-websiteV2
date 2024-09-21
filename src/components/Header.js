@@ -6,6 +6,11 @@ const Header = () => {
 		<header className="header">
 			<div className="logo">
 				<a href="#landing-page">My Portfolio</a>
+				<div className="glowing-lines">
+        			<div className="line red"></div>
+        			<div className="line yellow"></div>
+        			<div className="line green"></div>
+      			</div>
 			</div>
 			<nav className="nav">
 				<ul>
