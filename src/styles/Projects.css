@@ -4,6 +4,12 @@
     padding: 20px;
 }
 
+.my-projects h2 {
+    font-size: 2rem; /* Match the font size of About Me */
+    margin-bottom: 20px;
+    color: #333;
+}
+
 .projects-container {
     display: flex;
     overflow-x: auto;

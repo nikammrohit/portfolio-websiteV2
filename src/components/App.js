@@ -11,9 +11,9 @@ function App() {
   return (
 	<div className="App">
 	  <Header />
-	  <LandingPage />
-	  <Projects />
-	  <About />
+	  <div className="content-wrapper">
+		<LandingPage />
+	  </div>
 	  <Contact />
 	  <Footer />
 	</div>
