@@ -27,6 +27,8 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     padding: 20px;
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit text color */
     scroll-snap-align: start;
     transition: transform 0.3s ease;
 }
