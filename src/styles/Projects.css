@@ -2,6 +2,7 @@
 
 .my-projects {
     padding: 20px;
+    flex: 1; /* Allow it to grow and shrink */
 }
 
 .my-projects h2 {
