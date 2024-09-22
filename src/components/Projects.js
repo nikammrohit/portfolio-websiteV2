@@ -16,8 +16,8 @@ const Projects = () => {
 	<section id="projects" className="my-projects">
 	  <h2>My Projects</h2>
 	  <div className="projects-container">
-		{projects.map((project) => (
-		  <a key={project.id} href={project.url} className="project-card" target="_blank" rel="noopener noreferrer">
+		{projects.map((project, index) => (
+		  <a key={project.id} href={project.url} className={`project-card ${index % 5 === 0 ? 'large' : ''}`} target="_blank" rel="noopener noreferrer">
 			<h3>{project.title}</h3>
 			<p>{project.description}</p>
 		  </a>
