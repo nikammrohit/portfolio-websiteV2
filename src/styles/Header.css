@@ -104,10 +104,10 @@
   color: #007bff;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 400px) {
   .nav ul {
     flex-direction: column;
-    display: none;
+    display: flex;
   }
 
   .nav ul.active {
