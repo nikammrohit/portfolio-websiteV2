@@ -12,19 +12,19 @@ const Header = () => {
 					<li>
 						<a href="#about">About</a>
 						<div className="glowing-lines">
-							<div className="line red"></div>
+							<a href="#about" className="line red"></a>
 						</div>
 					</li>
 					<li>
 						<a href="#projects">Projects</a>
 						<div className="glowing-lines">
-							<div className="line yellow"></div>
+							<a href="#projects" className="line yellow"></a>
 						</div>
 					</li>
 					<li>
 						<a href="#contact">Contact</a>
 						<div className="glowing-lines">
-							<div className="line green"></div>
+							<a href="#contact" className="line green"></a>
 						</div>
 					</li>
 				</ul>
