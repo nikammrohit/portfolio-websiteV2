@@ -108,15 +108,27 @@
   .nav ul { /* Adjust the flex to fit small screens */
     flex-direction: column;
     display: flex;
+    margin: -30px;
   }
 
   .nav ul.active { /* Use flex also on screens > than 400px */
     display: flex;
   }
 
+  .line.red {
+    transform: translateY(15px); /* Move the red line closer to the yellow line */
+  }
+
+  .line.yellow {
+    transform: translateY(0px); /* Move the yellow line closer to the green line */
+  }
+
+  .line.green {
+    transform: translateY(-15px); /* Move the green line closer to the yellow line */
+  }
+
   .nav ul li {
-    margin: -8px 0;
-    transform: translateY(-40%); /* Adjust for exact centering */
+    transform: translate(-60%, -40%)
   }
 
   .line {
