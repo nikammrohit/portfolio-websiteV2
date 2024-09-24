@@ -3,7 +3,7 @@ import '../styles/LandingPage.css';
 import About from './About';
 import Projects from './Projects';
 
-const greetings = ['Hi', 'Hola', 'Bonjour', 'Hallo', 'Ciao', 'こんにちは', '안녕하세요', '你好', 'Привет', 'مرحبا'];
+const greetings = ['Hi', 'Hola', 'Bonjour', 'Ciao', 'नमस्कार', 'こんにちは', '안녕하세요', '你好', 'Привет', 'مرحبا'];
 
 const LandingPage = () => {
 	const [greetingIndex, setGreetingIndex] = useState(0);

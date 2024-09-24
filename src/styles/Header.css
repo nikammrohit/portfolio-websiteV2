@@ -121,6 +121,7 @@
 
   .line.yellow {
     transform: translateY(0px); /* Move the yellow line closer to the green line */
+    margin-top: 0;
   }
 
   .line.green {
@@ -128,7 +129,7 @@
   }
 
   .nav ul li {
-    transform: translate(-60%, -40%)
+    transform: translate(-60%, -40%);
   }
 
   .line {
