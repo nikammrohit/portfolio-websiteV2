@@ -105,12 +105,12 @@
 }
 
 @media (max-width: 400px) {
-  .nav ul {
+  .nav ul { /* Adjust the flex to fit small screens */
     flex-direction: column;
     display: flex;
   }
 
-  .nav ul.active {
+  .nav ul.active { /* Use flex also on screens > than 400px */
     display: flex;
   }
 
