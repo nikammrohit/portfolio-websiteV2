@@ -121,15 +121,18 @@
 
   .line.red {
     transform: translateY(15px); /* Move the red line closer to the yellow line */
+    border-radius: 10px
   }
 
   .line.yellow {
     transform: translateY(0px); /* Move the yellow line closer to the green line */
     margin-top: 0;
+    border-radius: 10px
   }
 
   .line.green {
     transform: translateY(-15px); /* Move the green line closer to the yellow line */
+    border-radius: 10px
   }
 
   .nav ul li {
