@@ -7,6 +7,11 @@
 	src: url("/public/fonts/SFPro/SF-Pro.ttf");
 }
 
+@font-face {
+	font-family: "Geist";
+	src: url("/public/fonts/Geist/statics-ttf/Geist-Regular.ttf");
+}
+
 html, body{
-	font-family: "SF Pro";
+	font-family: "Geist";
 }
