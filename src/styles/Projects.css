@@ -3,6 +3,7 @@
 .my-projects {
     padding: 20px;
     flex: 1; /* Allow it to grow and shrink */
+    z-index: 2; /* Ensure it appears above the background */
 }
 
 .my-projects h2 {
@@ -16,7 +17,7 @@
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 20px;
     padding: 20px 0;
-    z-index: 1;
+    z-index: 2;
 }
 
 .project-card {
@@ -31,7 +32,7 @@
 }
 .project-card:hover {
     transform: scale(1.1);
-    z-index: 2; /* Ensure the hovered card appears above others */
+    z-index: 3; /* Ensure the hovered card appears above others */
 }
 
 .project-card.large {

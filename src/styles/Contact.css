@@ -5,8 +5,8 @@
   color: #ffffff;
   padding: 40px 20px;
   text-align: center;
-  z-index: 0;
   margin-top: -20px;
+  z-index: 1;
   position: relative; /* Ensure it can be overlapped */
 }
 
