@@ -71,10 +71,6 @@
   transition: color 0.3s ease;
 }
 
-.nav ul li a:hover {
-  color: #007bff;
-}
-
 .logo a {
   font-size: 1.5rem;
   font-weight: bold;
@@ -100,8 +96,16 @@
   transition: color 0.3s ease;
 }
 
-.nav ul li a:hover {
-  color: #007bff;
+.nav ul li a[href="#about"]:hover {
+  color: #ee695e;
+}
+
+.nav ul li a[href="#projects"]:hover {
+  color: #f5bd4f;
+}
+
+.nav ul li a[href="#contact"]:hover {
+  color: #61c454;
 }
 
 @media (max-width: 480px) {
