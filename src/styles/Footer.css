@@ -23,3 +23,13 @@ footer a {
 footer a:hover {
 	color: #0056b3;
 }
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+	width: 100%;
+}
+
+.local-time {
+    margin-right: 4em;
+}
