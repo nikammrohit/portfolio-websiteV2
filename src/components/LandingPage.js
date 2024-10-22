@@ -34,7 +34,7 @@ const LandingPage = () => {
 				<h1>
 					<span className={fade ? 'fade-out' : 'fade-in'}>{greetings[greetingIndex]}</span>, I'm Rohit
 				</h1>
-				<p>Welcome to my portfolio website.</p>
+				<p>Full stack developer leading an engaged online community, driven by a passion to build innovative solutions</p>
 				<button onClick={handleScroll} className="cta-button">View My Work</button>
 			</section>
 			<About />
